@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  background: url(./images/bg-pattern-top.svg) no-repeat right 40vw bottom 40vh, url(./images/bg-pattern-bottom.svg) no-repeat left 50vw top 43vh;
+  background-color: #19a2ae;
+}
+
+body .container {
+  max-width: 350px;
+  background: white;
+  border-radius: 1rem;
+  cursor: default;
+  overflow: hidden;
+}
+
+body .container .hero-section {
+  max-height: 140px;
+}
+
+body .container .hero-section .move {
+  position: relative;
+  left: 175px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+body .container .body-section {
+  margin-top: 4rem;
+}
+
+body .container .body-section h1 {
+  text-align: center;
+  color: #2d3248;
+  font-size: 1.4rem;
+}
+
+body .container .body-section h1 span {
+  color: #969696;
+}
+
+body .container .body-section h3 {
+  text-align: center;
+  color: #969696;
+  font-size: 1.2rem;
+  margin: 0 0 2rem 0;
+  padding: 0;
+}
+
+body .container .list-section {
+  padding-top: 1.5rem;
+  border-top: 1px solid #d6d6d6;
+}
+
+body .container .list-section ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .container .list-section ul li {
+  width: 33%;
+}
+
+body .container .list-section ul li h2 {
+  margin: 0;
+  color: #2d3248;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+body .container .list-section ul li h4 {
+  margin: 0;
+  color: #969696;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+body .attribution {
+  margin-top: 1rem;
+  font-size: 18px;
+  text-align: center;
+}
+
+body .attribution a {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #2d3248;
+  -webkit-transition: color 400ms ease-out;
+  transition: color 400ms ease-out;
+}
+
+body .attribution a:hover, body .attribution a:active {
+  color: #6c76a3;
+}
+/*# sourceMappingURL=style.css.map */
